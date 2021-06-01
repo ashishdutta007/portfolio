@@ -12,10 +12,7 @@ export default function Layout({ children, home }) {
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
+        <meta name="description" content="fan page" />
         <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
@@ -44,7 +41,7 @@ export default function Layout({ children, home }) {
               <a>
                 <Image
                   priority
-                  src="/images/profile.jpg"
+                  src="/profile.jpg"
                   className={utilStyles.borderCircle}
                   height={108}
                   width={108}
