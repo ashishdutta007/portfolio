@@ -27,6 +27,20 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
+        <div
+          styles={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "spaceBetween",
+          }}
+        >
+          <div for="upload">Upload Image</div>
+          <input
+            className={utilStyles.userInput}
+            name="upload"
+            type="file"
+          ></input>
+        </div>
       </section>
     </Layout>
   );
